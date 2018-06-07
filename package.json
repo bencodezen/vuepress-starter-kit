@@ -1,0 +1,29 @@
+{
+  "name": "vuepress-starter-kit",
+  "version": "1.0.0",
+  "description": "A sample project to let you see what makes VuePress so great! ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+		"build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencodezen/vuepress-starter-kit.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vuepress",
+    "documentation",
+    "static-site-gen"
+  ],
+  "author": "Ben Hong <bencodezen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencodezen/vuepress-starter-kit/issues"
+  },
+  "homepage": "https://github.com/bencodezen/vuepress-starter-kit#readme",
+  "dependencies": {
+    "vuepress": "^0.10.0"
+  }
+}
