@@ -1,5 +1,7 @@
 # Basic Page h1
 
+<Counter />
+
 ## A Heading h2
 
 Consectetur officia qui ad duis consequat anim est. In eiusmod dolore incididunt incididunt aute occaecat sunt deserunt. Ea ut duis laboris amet pariatur amet tempor incididunt ad sint do Lorem laborum. Lorem deserunt occaecat cillum laborum nisi reprehenderit deserunt ex pariatur nostrud dolore proident ex aliqua.
