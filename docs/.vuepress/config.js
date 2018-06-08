@@ -7,8 +7,10 @@ module.exports = {
 	ga: '',
 	description: 'This is your page description.',
 	themeConfig: {
-		repo: 'bencodezen/vuepress-starter-kit',
-		lastUpdated: 'Last Updated',
+		repo: '',
+		editLinks: false,
+		editLinkText: '',
+		lastUpdated: '',
 		nav: [
 			{
 				text: 'Home',
@@ -45,8 +47,6 @@ module.exports = {
 				]
 			}
 		],
-		docsDir: 'docs',
-		editLinks: true,
-		editLinkText: 'Help us improve this page!'
+		docsDir: 'docs'
 	}
 }
