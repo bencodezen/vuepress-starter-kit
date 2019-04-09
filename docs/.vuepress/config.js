@@ -7,7 +7,7 @@ module.exports = {
 	ga: '',
 	description: 'This is your page description.',
 	themeConfig: {
-		repo: '',
+		repo: 'https://github.com/bencodezen/vuepress-starter-kit',
 		editLinks: false,
 		editLinkText: '',
 		lastUpdated: '',
@@ -19,6 +19,10 @@ module.exports = {
 			{
 				text: 'Basic Page',
 				link: '/basic/'
+			},
+			{
+				text: 'Component Example',
+				link: '/component-example'
 			},
 			{
 				text: 'Section',
