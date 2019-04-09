@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-		"build": "vuepress build docs"
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/bencodezen/vuepress-starter-kit#readme",
   "dependencies": {
-    "vuepress": "^0.10.0"
+    "global": "^4.3.2",
+    "vuepress": "^0.14.10"
   }
 }
