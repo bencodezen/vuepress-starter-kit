@@ -7,9 +7,9 @@ module.exports = {
 	description: 'This is your page description.',
 	themeConfig: {
 		repo: 'https://github.com/bencodezen/vuepress-starter-kit',
-		editLinks: false,
-		editLinkText: '',
-		lastUpdated: '',
+		editLinks: true,
+		editLinkText: 'Edit this page',
+		lastUpdated: 'Last updated',
 		nav: [
 			{
 				text: 'Home',
