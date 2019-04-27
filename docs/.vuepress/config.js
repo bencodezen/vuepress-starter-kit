@@ -1,5 +1,4 @@
 module.exports = {
-	dest: './docs/dist',
 	title: 'VuePress Starter Kit',
 	head: [
 		['link', { rel: 'icon', href: `/favicon.png` }]
