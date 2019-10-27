@@ -1,13 +1,13 @@
 module.exports = {
   title: 'VuePress Starter Kit',
-  head: [['link', { rel: 'icon', href: `/favicon.png` }]],
-  ga: '',
   description: 'This is your page description.',
   themeConfig: {
-    repo: 'https://github.com/bencodezen/vuepress-starter-kit',
-    editLinks: true,
-    editLinkText: 'Edit this page',
-    lastUpdated: 'Last updated',
+    // logo: '/vuepress-logo.png',
+    // lastUpdated: 'Last updated',
+    // repo: 'https://github.com/bencodezen/vuepress-starter-kit',
+    // docsDir: 'docs',
+    // editLinks: true,
+    // editLinkText: 'Recommend a change',
     nav: [
       {
         text: 'Home',
@@ -16,10 +16,6 @@ module.exports = {
       {
         text: 'Basic Page',
         link: '/basic/'
-      },
-      {
-        text: 'Component Example',
-        link: '/component-example'
       },
       {
         text: 'Section',
@@ -46,9 +42,12 @@ module.exports = {
             link: 'mailto:hello@email.com'
           }
         ]
+      },
+      {
+        text: 'Component Example',
+        link: '/component-example'
       }
     ],
-    docsDir: 'docs',
     plugins: ['@vuepress/active-header-links']
   }
 }
