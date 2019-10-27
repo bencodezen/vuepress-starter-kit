@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "serve": "npm run dev"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
   "dependencies": {
     "global": "^4.3.2",
     "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1"
   }
 }
