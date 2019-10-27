@@ -1,11 +1,3 @@
----
-meta:
-  - name: description
-    content: hello
-  - name: keywords
-    content: super duper SEO
----
-
 # Basic Page h1
 
 ## A Heading h2
